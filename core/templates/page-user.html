@@ -149,7 +149,13 @@ document.getElementById("demo").innerHTML = d;
       </div>
     </form>
       <div class="card-footer">
-        <button  type="submit" class="btn btn-fill btn-primary">Print Report</button>
+        <button onclick="myfunc()"  type="submit" class="btn btn-fill btn-primary">Print Report</button>
+        <script type="text/javascript">
+          function myfunc()
+          {
+            window.print();
+          }
+        </script>
       </div>
     </div>
   </div>
